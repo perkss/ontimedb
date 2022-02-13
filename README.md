@@ -5,6 +5,19 @@ analysis
 
 OnTimeDB is a time series data written in Rust to be extremely efficient and scalable.
 
+## Running with Bazel
+
+`bazel build`
+
+`bazel run bin:ontimedb`
+
+Run the main tests
+`bazel test --test_output=all test:ontimedb_test`
+
+Run the library tests
+`cd OnTimeDbLib`
+`bazel test --test_output=all test:ontimedblib_test`
+
 ## Design and Implementation
 
 Please check the [Wiki](https://github.com/perkss/ontimedb/wiki) for detailed information.

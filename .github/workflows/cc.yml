@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Build
+        run: bazel build
+
+      - name: Test
+        run: bazel test --test_output=all test:ontimedb_test
+
+      - name: Test Lib
+        run: cd OnTimeDbLib && bazel test --test_output=all test:ontimedblib_test

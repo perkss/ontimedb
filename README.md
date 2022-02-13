@@ -3,7 +3,7 @@
 Scalable and fast data store optimised for time series data such as financial data, events, metrics for real time
 analysis
 
-OnTimeDB is a time series data written in Rust to be extremely efficient and scalable.
+OnTimeDB is a time series data written in C to be extremely efficient and scalable.
 
 ## Running with Bazel
 

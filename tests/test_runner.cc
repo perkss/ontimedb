@@ -2,10 +2,11 @@
 #include <gtest/gtest.h>
 
 extern "C" {
-#include "LibraryCode.h"
+#include "../db/page.h" // What is missing in CMAKE to import this direct
 }
-TEST(TestSample, TestAddition) {
-    ASSERT_EQ(2, add(1, 1));
+
+TEST(TESTDB, TestPageGet) {
+    ASSERT_EQ(5, getPage());
 }
 
 int main(int argc, char **argv) {

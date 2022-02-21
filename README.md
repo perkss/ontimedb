@@ -5,18 +5,20 @@ analysis
 
 OnTimeDB is a time series data written in C to be extremely efficient and scalable.
 
-## Running with Bazel
+## Running with CMake
 
-`bazel build`
+Build
+`cmake -S . -B build`
 
-`bazel run bin:ontimedb`
+`cmake --build build`
 
-Run the main tests
-`bazel test --test_output=all test:ontimedb_test`
+Install
+`cmake --build . --target install`
 
-Run the library tests
-`cd OnTimeDbLib`
-`bazel test --test_output=all test:ontimedblib_test`
+Run the tests Be sure to build first if changes
+`cmake --build build`
+Then run the tests
+`cmake --build build --target test`
 
 ## Design and Implementation
 

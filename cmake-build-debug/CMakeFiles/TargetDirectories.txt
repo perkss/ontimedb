@@ -1,0 +1,5 @@
+/Users/Stuart/Documents/Programming/ontimedb/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Stuart/Documents/Programming/ontimedb/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Stuart/Documents/Programming/ontimedb/cmake-build-debug/CMakeFiles/mainApp.dir
+/Users/Stuart/Documents/Programming/ontimedb/cmake-build-debug/CMakeFiles/unitTestRunner.dir
+/Users/Stuart/Documents/Programming/ontimedb/cmake-build-debug/CMakeFiles/commonLibrary.dir

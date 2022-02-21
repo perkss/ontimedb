@@ -1,0 +1,8 @@
+# ninja log v5
+1	58	1645467393796139508	CMakeFiles/commonLibrary.dir/LibraryCode.c.o	e63ee5b75740f0d3
+59	205	1645467393945182000	libcommonLibrary.a	4566e7b0c4233f5b
+0	622	1645467394357775056	CMakeFiles/mainApp.dir/main.cpp.o	c8fd00bce0238354
+1	1062	1645467559866241656	CMakeFiles/unitTestRunner.dir/testRunner.cpp.o	f5c6bacae63bec2a
+1062	1150	1645467559957658946	unitTestRunner	af5e148750801b84
+2	606	1645467577729900162	CMakeFiles/mainApp.dir/main.cpp.o	c8fd00bce0238354
+606	664	1645467577790994167	mainApp	5c382a476531d61a

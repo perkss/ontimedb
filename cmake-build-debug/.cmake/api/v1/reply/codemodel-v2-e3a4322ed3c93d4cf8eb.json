@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "commonLibrary::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-commonLibrary-Debug-870c0683137d9b309f4f.json",
+					"name" : "commonLibrary",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mainApp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mainApp-Debug-720ef51f1d46526e5222.json",
+					"name" : "mainApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitTestRunner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitTestRunner-Debug-2df423e9b0a25a8cfbc7.json",
+					"name" : "unitTestRunner",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/Stuart/Documents/Programming/ontimedb/cmake-build-debug",
+		"source" : "/Users/Stuart/Documents/Programming/ontimedb"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
